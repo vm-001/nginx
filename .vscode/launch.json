@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Nginx debug",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "${workspaceFolder}/objs/nginx",
+            "MIMode": "lldb",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
